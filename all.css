@@ -1,0 +1,303 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Bruno Ace SC', 'cursive' , serif;
+    line-height: 1.5;
+    font-size: 16px;
+  }
+  .container {
+    max-width: 1296px;
+    margin: 0 auto;
+  }
+  .bg_black{
+    background-color: black;
+  }
+  img {
+    vertical-align: middle;
+    max-width: 100%;
+  }
+  .header{    
+    padding-top: 40px;
+  }
+  ul.header_u{
+    display: flex;
+    justify-content: space-between;
+  }
+.iten{
+    display: block;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+a.iten:hover{
+    color: #676767;
+}
+/*第一區完*/
+
+.d-flex {
+  display: flex;
+}
+.align-items-center {
+   align-items: center;
+}
+.people{
+   padding: 72px 0px;
+}
+.people_txt{
+    width: 636px;
+    display: flex;
+}
+h2{
+    font-size: 64px;
+}
+h1{
+    font-size: 128px;
+    color: #00FFA3;
+}
+.t_r{
+    text-align: right;
+    margin-left: auto;
+}
+.t_c_w{
+   color: #ffffff;
+}
+a{
+    text-decoration: none;
+}
+.btn a.contact{
+    width: 185px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 12px 24px;
+    display: block;
+}
+.btn a.contact:hover{
+    color: rgb(0, 0, 0); 
+    background-color: #7c7c7c;
+}
+/*第二區完*/
+
+.introduction{
+    background-image: url(img/background-img.png);
+    background-position: center;
+    background-size: cover;
+    padding: 160px 0px;
+}
+.about{
+    width: 562px;
+    height: 410px;
+    margin-right: 24px;
+}
+h3{
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+.introduction_txt{
+    font-size: 24px;
+}
+img.r_16{
+    padding-right: 16px;
+    display: inline-block;
+}
+img.r_24{
+    padding-right: 24px;
+    display: inline-block;
+}
+a.r_20{
+    display: inline-block;
+    margin-right: 20px;
+}
+.photos{
+    display: flex;
+}
+/*第三區完*/
+
+.aboutme_n1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 160px 0;
+}
+.about_left{
+    display: flex;
+    flex-wrap: wrap;
+    width:636px;
+    margin-right: 134px;
+}
+.aboutme_info{
+     width: 48%;
+     height: 148px;
+     padding: 16px;
+     margin-bottom: 24px;
+     border: 1px #E3E3E3 solid;
+     box-shadow: 4px 4px 8px  rgb(244, 244, 244);
+}
+span{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+p.titles{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.no_m{
+    margin-bottom: 0;
+}
+.mr24{
+    margin-right: 24px;
+}
+.about_right {
+    margin-left: auto;
+    width: 526px;
+}
+.about_txt_24{
+    font-size: 24px;
+}
+.contact_1{
+    display: flex;
+    padding: 96px 0px;
+    background-color: #000000;
+}
+.f_l{
+    margin-right: 113px;
+}
+/*第四區完*/
+
+.contactme{
+    font-size: 64px;
+}
+a.contactme:hover{
+    color: #686868;
+}
+.f_r{
+    display: flex;
+    justify-content: space-between;
+}
+.a_iconb{
+    width: 162px; 
+    height: 162px;
+    border-radius: 40px;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.a_icon1{
+    background-image: url(img/discord.png);
+    background-position: -19px -19pX;
+}
+.a_icon2{
+    background-image: url(img/instagram.png);
+        background-position: -4px -4pX;
+}
+.a_icon3{
+    background-image: url(img/message.png);
+    background-position: -4px -4pX;
+}
+a.imghover:hover{
+   border-radius: 40px;
+   box-shadow: 1px 0px 18px 4px #6f91ff;
+}
+/*第五區完*/
+
+.projects{
+    padding: 160px 0;
+}
+.pj_l{
+    max-width: 1290px;
+    margin-left: 100px;
+}
+.pj_txt{
+    width: 746px;
+    margin-left: auto;
+}
+.mt_16{
+    margin-bottom: 16px;
+}
+.pj_box{
+    display: flex;
+}
+.see{
+    display: flex;
+    margin-bottom: 28px;
+}
+.m_l_a{
+    margin-left: auto;
+}
+ .seebt a{
+    width: 185px;
+    height: 48px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 25px;
+    padding: 12px 24px;
+    display: block;
+}
+.seebt a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #555555;
+}
+.see_r{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 636px;
+}
+/*第六區完*/
+
+.footer{
+   text-align: center;
+   padding: 40px 0;
+}
+
+/*第七區完*/
